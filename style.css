@@ -116,7 +116,7 @@ margin: 0;
     display: flex;
     position: relative;
     width: 100%;
-height: 946px;
+height: 942px;
 }
 .image2{
     position: absolute;
@@ -185,7 +185,7 @@ color: #68513F;
 }
 .at{
     font-family: Inter;
-font-size: 87.5;
+font-size: 87.5%;
 font-weight: 400;
 line-height: 20px;
 letter-spacing: 0em;
@@ -207,19 +207,20 @@ margin: 0;
 color:#68513F;
 }
 .wumen{
-    width: 1340px;
+    width: 93%;
 height: 500px;
 padding: 0px 0px 0px 44px;
+
 }
 .products{
-    width: 1440px;
+    width: 100%;
     height: 716.75px;
     top: 2415px;
-    padding: 88px 40px 0px 44px;
+    padding: 90px 40px 0px 44px;
     
 }
 .textprod{
-    width: 1340px;
+    width: 93%;
 height: 185px;
 left: 50px;
 padding: 0px 333px 0px 0px;
@@ -247,7 +248,7 @@ margin: 0;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 1340px;
+    width: 93%;
 height: 481.75px;
 padding-top: 80px;
 }
@@ -260,6 +261,7 @@ padding-top: 80px;
 height: 482px;
 background: #E7DED8;
 border-radius: 10px;
+gap: 20px;
 }
 .prod button{
     font-family: Inter;
@@ -277,8 +279,7 @@ margin-right: 1px;
 }
 .textcleanser{
     width: 304.75px;
-height: 86px;
-padding: 25px 20px 14.75px 50px;
+padding: 0px 20px 14.75px 50px;
 display: flex;
 gap: 8px;
 flex-direction: column;
@@ -296,7 +297,7 @@ gap: 50px;
 }
 .start{
     font-family: Inter;
-    font-size: 100%;
+    font-size: 120%;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0em;
@@ -331,6 +332,7 @@ height: 482px;
 left: 338px;
 background: #E7DED8;
 border-radius: 10px;
+gap: 5px;
 }
 .bodys{
     display: flex;
@@ -341,6 +343,7 @@ border-radius: 10px;
 height: 482px;
 background: #E7DED8;
 border-radius: 10px;
+gap: 18px;
 }
 .night{
     display: flex;
@@ -351,6 +354,7 @@ border-radius: 10px;
 height: 482px;
 background: #E7DED8;
 border-radius: 10px;
+gap: 18px;
 }
 .feature{
     padding: 124px 100px 0px 0px;
@@ -522,4 +526,11 @@ border-radius: 166px;
 height: 45px;
 border-radius: 166px;
     border: 1px solid #DACEC6;
+}
+.foother{
+    margin: 123px 0px 0px 44px;
+    width: 1340px;
+height: 353px;
+border-radius: 10px;
+background: #E7DED8;
 }
