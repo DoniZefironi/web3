@@ -429,17 +429,18 @@ margin: 0;
     gap: 70px;
 }
 .imgface{
-    padding: 205px 15px 0px 0px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
+    justify-items: center;
+    direction: rtl;
 }
 .relative{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 205px 0px 0px 0px;
 }
 .textinimg{
     display: flex;
@@ -464,7 +465,7 @@ margin: 0px 0px 3px 2px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 90px 10px 0px 0px;
+    padding: 70px 10px 0px 0px;
     gap: 46px;
 }
 .bocki{
@@ -528,9 +529,115 @@ border-radius: 166px;
     border: 1px solid #DACEC6;
 }
 .foother{
-    margin: 123px 0px 0px 44px;
     width: 1340px;
 height: 353px;
+    margin: 123px 0px 0px 44px;
 border-radius: 10px;
 background: #E7DED8;
+display: flex;
+justify-content: center;
+flex-direction: row;
+}
+.block1{
+    margin: 0px 136px 50px 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 124px;
+}
+.block2{
+    margin: 0px 36px 50px 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 150px;
+}
+.skinni{
+    display: flex;
+    gap: 20px;
+flex-direction: column;
+}
+.textskinni{
+    display: flex;
+    gap: 50px;
+flex-direction: column;
+}
+.skinni p{
+    font-family: Inter;
+font-size: 17px;
+font-weight: 400;
+line-height: 19.6px;
+text-align: left;
+margin: 0;
+}
+.pages{
+    margin: 36px 20px 0px 0px;
+display: flex;
+flex-direction: column;
+justify-content: start;
+align-items: start;
+gap: 25px;
+}
+.pag{
+    font-family: STSong;
+font-size: 24px;
+font-weight: 300;
+line-height: 39.2px;
+text-align: left;
+margin: 0;
+}
+.textpages{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+gap: 66px;
+}
+.textpages p{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 29.6px;
+text-align: left;
+margin: 0;
+}
+.contactus{
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+}
+.con{
+    font-family: STSong;
+font-size: 27px;
+font-weight: 300;
+line-height: 39.2px;
+text-align: left;
+margin: 0;
+}
+.wereher{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.whfy{
+    font-family: STSong;
+font-size: 28px;
+font-weight: 300;
+line-height: 39.2px;
+text-align: left;
+margin: 0;
+}
+.imgwereher{
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
 }
